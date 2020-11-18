@@ -32,7 +32,7 @@ public class SpringGestionPharmacieApplication implements CommandLineRunner {
 		
 //		pharmaciesdao.save(p);
 		
-		pharmaciesdao.findAll().forEach(c ->System.out.println(c.getNom()));
+//		pharmaciesdao.findAll().forEach(c ->System.out.println(c.getNom()));
 	}
 
 }
